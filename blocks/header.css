@@ -1,0 +1,133 @@
+.header {
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  padding-top: 30px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 40px;
+  background-color: #ffffff;
+  background-image: url(/images/background_header.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.logo {
+  height: 92px;
+  width: 80px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  list-style: none;
+}
+
+  .nav__link {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav__link:hover {
+  color: #1f69c9;
+}
+
+.header__title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+  padding-top: 80px;
+  margin: 0 0 0;
+  max-width: 544px;
+  display: block;
+}
+
+.header__span-accent {
+  font-family: Noto serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+  color: #2f80ed;
+}
+
+.header__description {
+  font-family: Noto serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 20px 0 0;
+  max-width: 465px;
+}
+
+.header__image {
+  position: absolute;
+  top: 124px;
+  right: 5px;
+  max-width: 550px;
+  z-index: 0;
+}
+
+.header__paragraph-column-heading {
+  padding: 0;
+  margin: 0;
+}
+
+.header__paragraph {
+  position: absolute;
+  left: 0;
+  bottom: 40px;
+  width: 100%;
+  display: flex;
+
+  align-items: flex-end;
+  padding: auto;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.header__paragraph-column-hours {
+  padding-left: 80px;
+}
+
+.header__paragraph-column {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+}
+
+.header__paragraph-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header__paragraph-column-address {
+  padding-right: 80px;
+}
+
+.header__paragraph-address {
+  margin: 0;
+}
