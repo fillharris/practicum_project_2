@@ -1,6 +1,6 @@
 .recipes {
   background-color: #fff;
-  background-image: url(/images/background_recipes.svg);
+  background-image: url(../images/background_recipes.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -31,85 +31,33 @@
   padding-bottom: 80px;
 }
 
+.recipes__iframes {
+  width: 480px;
+  height: 273px;
+}
+
 .recipes__videos {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
   align-items: center;
   margin: 0 auto;
-  width: 1000px;
   padding-bottom: 215px;
 }
 
 .recipes__videos-content {
-  display: inline-block;
+  width: 480px;
   padding: 0;
 }
 
-.recipes__videos-caption {
-  display: block;
-  float: left;
+.recipes__video-caption {
+  display: flex;
+  justify-content: space-between;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
   margin: 0;
   width: 100%;
-}
-
-.recipes__video-caption-french-press {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 30px;
-  display: inline;
-  float: left;
-  text-align: left;
-  width: 40%;
-}
-
-.recipes__video-caption-seperator-french-press {
-  display: inline;
-  float: left;
-  text-align: center;
-  width: 20%;
-}
-
-.recipes__video-caption-french-press-time {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 30px;
-  float: right;
-  text-align: right;
-  width: 40%;
-}
-
-.recipes__video-caption-aeropress {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 30px;
-  display: inline;
-  float: left;
-  text-align: left;
-  width: 40%;
-}
-
-.recipes__video-caption-seperator-aeropress {
-  display: inline;
-  float: left;
-  text-align: center;
-  width: 20%;
-}
-
-.recipes__video-caption-aeropress-time {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 30px;
-  float: right;
-  text-align: right;
-  width: 40%;
-}
-
-.aeropress {
-  padding-right: 20px;
 }
