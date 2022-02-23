@@ -101,7 +101,7 @@
   box-sizing: border-box;
 }
 
-.header__footer_paragraph {
+.header__footer-paragraph {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -112,11 +112,11 @@
   margin: 0;
 }
 
-.header__footer_paragraph-item {
+.header__footer-paragraph-item {
   margin: 0;
 }
 
-.header__footer_address {
+.header__footer-address {
   padding-right: 80px;
   margin: 0;
   color: #838383;
