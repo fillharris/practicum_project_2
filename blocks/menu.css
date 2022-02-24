@@ -37,6 +37,10 @@
   color: #fff;
 }
 
+.menu__card:last-child {
+  padding-bottom: 0;
+}
+
 .card {
   display: flex;
   justify-content: center;

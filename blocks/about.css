@@ -26,7 +26,7 @@
   padding-left: 80px;
   margin-top: 0;
   margin-right: auto;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -53,7 +53,7 @@
   margin-bottom: 32px;
   position: relative;
   z-index: 1;
-  font-family: "Noto serif", serif;
+  font-family: "Noto serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
