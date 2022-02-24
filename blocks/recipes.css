@@ -31,9 +31,12 @@
   padding-bottom: 80px;
 }
 
+/* The frameBorder attribute can have two values: 0 (for disabling the border) and 1 (for enabling the border). Its default value is 1 */
+
 .recipes__iframes {
   width: 480px;
   height: 273px;
+  border: 1;
 }
 
 .recipes__videos {
