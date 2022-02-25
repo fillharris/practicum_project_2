@@ -73,8 +73,8 @@
   box-sizing: border-box;
 }
 
-.header__footer-paragraph {
-  font-family: "Inter", Arial sans-serif;
+.header__paragraph {
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -84,11 +84,11 @@
   margin: 0;
 }
 
-.header__footer-paragraph-item {
+.header__paragraph-item {
   margin: 0;
 }
 
-.header__footer-address {
+.header__paragraph-address {
   padding-right: 80px;
   margin: 0;
   color: #838383;
